@@ -34,7 +34,7 @@ import warnings
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-num_epochs=5
+num_epochs=50
 
 device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
